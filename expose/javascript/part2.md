@@ -47,4 +47,6 @@
 
 15. == compa    res the values after type conversion and === checks types before even attempting to convert, returning false as long as variables of two different types are being compared.
 
-16. 
+17. result: [2, 4, 6]. The function doSomething does the job of doubling the value of a number. It is passed to the function modifyArray as callback. Because callback is used on each array element when pushing it into newArr, it would double each number, so [1,2,3] becomes [2,4,6].
+    
+19. 1, 4, 3 are displayed at the same time in this sequence, and 2 is displayed one second later.
