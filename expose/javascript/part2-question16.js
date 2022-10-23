@@ -7,5 +7,7 @@ let statistics = {
     rareCars: 2
 };
 for (let property in statistics) {
-    console.log(`${property}: ${statistics[property]}`);
+    if ((property[0] == 'r')||(statistics[property]%2 == 1)) { 
+        console.log(`${property}: ${statistics[property]}`);
+    }
   }
