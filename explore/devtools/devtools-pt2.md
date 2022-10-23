@@ -1,0 +1,1 @@
+The bug is that num1 and num2 are considered strings and therefore result is also a string concatenated with them. I added the type-conversion function Number() on num1 and num2. Problem solved.
